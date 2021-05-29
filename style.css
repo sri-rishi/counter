@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300;800&display=swap');
+
+
+body {
+    font-family: 'Martel', serif;  
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    /* positioning main center in viewport */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    font-size: 4rem;
+    margin-block-start: 0;
+    margin-block-end: -15px;
+}
+
+#counter {
+    font-size: 8rem;
+    margin: 0;
+}
+
+.btn {
+    display:inline;
+    border:2px solid tomato;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
